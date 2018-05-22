@@ -338,7 +338,8 @@ function showPosition(position)
   lat=position.coords.latitude;
   lon=position.coords.longitude;
 
-  alert(lat + " - " + lon);
+  //alert(lat + " - " + lon);
+  location.href = "http://extranet.termolar.com.br/walder/teste_maps.html?lat" + lat + "&lon=" + lon;
   /*latlon=new google.maps.LatLng(lat, lon);
   //latlon=new google.maps.LatLng(-30.099958,-51.239052);
   document.getElementById('endereco').value=latlon
